@@ -121,5 +121,13 @@ nothing to commit, working tree clean
 4. `git branch (to check branch)`
 5. `git branch -M main (to rememe branch to main)`
 
+#### Branch Commands
+
+1. `git branch ` to check branch
+2. `git branch -M <NewBranchName>` to remane branch
+3. `git checkout <Name of that branch to which we want to Navigate>` to navigate
+4. `git checkout -b <Name of that branch to which we want to Create>` to create new branch
+5. `git branch -d <Name of that branch to which we want to Delete>` to delete branch
+
 
 
