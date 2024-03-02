@@ -36,12 +36,17 @@ To start Git and GitHub.
 > all list of file inside that particular folder
 ###### ls -a
 > it's shows hidden file in that folder
+###### cd .. 
+>move out from that directory
+#### mkdir 
+>make new directory
+> ` mkdir "FolderName" `
 
 ## Some basic Git Commands
 
 ### Clone & Status
 
-##### Clone : 
+#### Clone : 
 > Cloning a repository on our local machine.
 > git clone <-some project link which is uploaded on GitHub ->
 
@@ -52,7 +57,7 @@ To start Git and GitHub.
 3. It show's many option, Click on HTTPS link and copy and paste like that ``` git clone https://github.com/Alokkumar-8467/Git-GitHub.git  ```
 4. That Code is copy in your Code Editor and we can make changes on them.
 
-##### Status : 
+#### Status : 
 
 >display the status of the code
 > ``` git status ```
@@ -105,5 +110,16 @@ nothing to commit, working tree clean
 #### Push Command
 
 1. Push - upload local repo content to remote repo
-` git push origin main `
-If it's not work then use ` git push --set-upstream origin main -f `
+` git push -u origin main `
+2. If it's not work then use ` git push --set-upstream origin main -f `
+
+#### Init Command
+> init - used to create a new git repo
+1. `git init` 
+2. `git remote add origin` 
+3. `git remote -v (to verify remote)`
+4. `git branch (to check branch)`
+5. `git branch -M main (to rememe branch to main)`
+
+
+
