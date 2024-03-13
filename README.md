@@ -51,6 +51,11 @@ To start Git and GitHub.
 > git clone <-some project link which is uploaded on GitHub ->
 
 ``` git clone https://github.com/Alokkumar-8467/Git-GitHub.git  ```
+OR
+
+git clone -b <branchName> <project github link>
+
+` git clone -b 18.Delete-Task-By-Login-User https://github.com/Alokkumar-8467/Next.js.git`
 
 1. We simply open any project which uploaded on GitHub.
 2. Click on Code button which is green in color.
